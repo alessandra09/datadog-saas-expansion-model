@@ -3,7 +3,7 @@ SaaS Expansion Scenario Model using real Datadog FY2025 data. SQL + Financial Mo
 # Datadog SaaS Expansion Scenario Model
 
 **Stack:** PostgreSQL · SQL (CTEs, window functions) · Financial modeling  
-**Data:** Datadog FY2025 public financials — $3.43B revenue, 4,310 enterprise customers  
+**Data:** Datadog FY2025 public financials - $3.43B revenue, 4,310 enterprise customers  
 **Built:** April 2026
 
 ---
@@ -35,7 +35,7 @@ Source: [Datadog Q4 FY2025 Earnings, February 10 2026](https://investors.datadog
 
 | Scenario | ARR growth yr 1 | Investment |
 |---|---|---|
-| Base (core markets only) | 20% | — |
+| Base (core markets only) | 20% | - |
 | EMEA Expansion | ~23% | ~$80M |
 | Aggressive (EMEA + APAC) | ~27% | ~$180M |
 
