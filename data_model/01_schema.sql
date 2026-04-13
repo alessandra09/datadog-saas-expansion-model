@@ -1,7 +1,7 @@
 -- ============================================================
 -- Datadog SaaS Expansion Model
 -- Schema design: relational data model for SaaS analytics
--- Author: Olelsandra Hordieieva | April 2026
+-- Author: Oleksandra Hordieieva | April 2026
 -- Data basis: Datadog FY2025 financials
 --   Revenue: $3,427M | Customers >$100K ARR: 4,310
 --   Source: investors.datadoghq.com, Feb 10 2026
