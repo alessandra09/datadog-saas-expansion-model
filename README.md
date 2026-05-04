@@ -52,3 +52,25 @@ Source: [Datadog Q4 FY2025 Earnings, February 10 2026](https://investors.datadog
 ---
 
 ## Repository structure
+
+data_model/
+01_schema.sql               relational schema (8 tables)
+02_seed_data.sql            reference data + modeling assumptions
+sql_queries/
+01_mrr_arr.sql              MRR and ARR by market
+02_mrr_waterfall.sql        monthly MRR movement bridge
+03_cohort_retention.sql     revenue cohort NRR analysis
+04_churn_rate.sql           gross churn rate monthly and annualized
+05_ltv_cac.sql              LTV / CAC by segment and market
+06_scenario_comparison.sql  three-scenario ARR comparison
+07_expansion_roi.sql        expansion investment ROI
+docs/
+assumptions_and_sources.md  all data sources and modeling assumptions
+
+---
+
+## Data sources
+
+- [Datadog Investor Relations](https://investors.datadoghq.com)
+- [High Alpha / OpenView SaaS Benchmarks 2024](https://www.highalpha.com/saas-benchmarks/2024)
+- [Benchmarkit 2025 SaaS Performance Metrics](https://www.benchmarkit.ai/2025benchmarks)
