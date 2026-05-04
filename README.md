@@ -59,19 +59,27 @@ Source: [Datadog Q4 FY2025 Earnings Release](https://investors.datadoghq.com/new
 
 ## Repository structure
 
-data_model/
-── 01_schema.sql                 Relational schema - 8 tables with relationships
-── 02_seed_data.sql              Reference data + verified modeling assumptions
-sql_queries/
-── 01_mrr_arr.sql                MRR and ARR by market with MoM growth
-── 02_mrr_waterfall.sql          Monthly MRR movement bridge
-── 03_cohort_retention.sql       Revenue cohort NRR analysis
-── 04_churn_rate.sql             Gross churn rate monthly and annualized
-── 05_ltv_cac.sql                LTV / CAC by segment and market
-── 06_scenario_comparison.sql    Three-scenario ARR comparison
-── 07_expansion_roi.sql          Expansion investment ROI
-docs/
-── assumptions_and_sources.md    All data sources and modeling assumptions
+**data_model/**
+| File | Description |
+|---|---|
+| `01_schema.sql` | Relational schema — 8 tables with relationships |
+| `02_seed_data.sql` | Reference data + verified modeling assumptions |
+
+**sql_queries/**
+| File | Description |
+|---|---|
+| `01_mrr_arr.sql` | MRR and ARR by market with MoM growth |
+| `02_mrr_waterfall.sql` | Monthly MRR movement bridge |
+| `03_cohort_retention.sql` | Revenue cohort NRR analysis |
+| `04_churn_rate.sql` | Gross churn rate monthly and annualized |
+| `05_ltv_cac.sql` | LTV / CAC by segment and market |
+| `06_scenario_comparison.sql` | Three-scenario ARR comparison |
+| `07_expansion_roi.sql` | Expansion investment ROI |
+
+**docs/**
+| File | Description |
+|---|---|
+| `assumptions_and_sources.md` | All data sources and modeling assumptions |
 
 ---
 
